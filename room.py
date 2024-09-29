@@ -4,6 +4,7 @@ class Room():
         self.description = (None)
         self.linked_rooms = {}
         self.character = None
+        self.items = []
 
     def get_description(self):
         return self.description
@@ -43,3 +44,18 @@ class Room():
 
     def get_character(self):
         return self.character
+    
+    def remove_character(self, character):
+        self.character = None
+
+    def add_item(self, item):
+        self.items.append(item)
+
+    def remove_item(self, item):
+        if item in self.items:
+            self.items.remove(item)
+
+    def get_items(self):
+        return self.items
+
+    
