@@ -1,0 +1,206 @@
+<mxfile host="65bd71144e">
+    <diagram id="idWtWiftDENBaABKIXIX" name="Page-1">
+        <mxGraphModel dx="1751" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="2000" pageHeight="2000" background="none" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="3" style="edgeStyle=none;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="2" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="150" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Start" style="ellipse;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="365" y="40" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" style="edgeStyle=none;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="250" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="4" value="Spawn in the kitchen. Recieving commands on how to play the game as well as a description of the place you are currently in" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="140" width="250" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="6" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="649.9999999999998" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="6" target="14" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="230" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="6" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;font style=&quot;font-size: 10px;&quot;&gt;Given the choice to move to the Dining room&lt;/font&gt;&lt;/p&gt;" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="250" width="220" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Head south" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="550" y="270" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="10" target="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="709.9999999999998" y="380" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Arrive at the Dining room and recieve details about the room" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="12" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="709.9999999999998" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="12" value="Upon entering, an enemy appears (&quot;Wolf&quot;) who talks to the player" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="649.9999999999998" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;fontSize=10;entryX=0;entryY=0.429;entryDx=0;entryDy=0;entryPerimeter=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="14" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="150" y="160" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="150" y="170"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="You cannot go that way." style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="270" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="Another direction" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="215" y="270" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="709.9655172413793" y="560.2758620689656" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="20" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="490" y="525" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" style="edgeStyle=none;html=1;fontSize=10;rounded=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="20" edge="1" target="26">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="880" y="525" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="20" value="How to interact with enemy" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="635" y="480" width="150" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Fight" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="535" y="490" width="50" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="Run away" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="785" y="490" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" style="edgeStyle=none;html=1;fontSize=10;entryX=1;entryY=0.5;entryDx=0;entryDy=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="26" target="4" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="930" y="140" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="930" y="175"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="Recieve a hint on how to defeat enemy" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="870" y="492.5" width="120" height="65" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="28" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="425" y="610" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="28" value="Asks the user to input their weapon of choice?" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="350" y="495" width="150" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" style="edgeStyle=none;html=1;fontSize=10;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="32" target="38" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="640" y="655" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="35" style="edgeStyle=none;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="32" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="220" y="655" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="32" value="Does player type in the enemy's weakness?" style="rhombus;whiteSpace=wrap;html=1;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="316.25" y="610" width="217.5" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="560" y="620" width="40" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="Silver sword" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="235" y="620" width="80" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;rounded=1;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="37" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="790" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="37" value="Player has defeated the wolf and is now free to move about" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="40" y="627.5" width="180" height="55" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" style="edgeStyle=none;html=1;fontSize=10;entryX=0.5;entryY=1;entryDx=0;entryDy=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="38" target="26" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="990" y="657.5" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="930" y="658"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="38" value="Player is defeated by wolf and has to start again from the beginning" style="rounded=1;whiteSpace=wrap;html=1;fontSize=10;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="650" y="627.5" width="190" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" style="edgeStyle=none;rounded=1;html=1;entryX=-0.023;entryY=0.508;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.987;exitY=0.504;exitDx=0;exitDy=0;exitPerimeter=0;sketch=1;curveFitting=1;jiggle=2;" parent="1" source="42" target="47" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="360" y="845" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="56" style="edgeStyle=none;html=1;fontSize=12;rounded=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="42" target="57">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="130" y="1000" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="42" value="What room does player want to travel to?" style="rhombus;whiteSpace=wrap;html=1;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry y="790" width="260" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="Ballroom&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="315" y="815" width="70" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=36;rounded=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="47">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530.1111111111111" y="960" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="47" value="Player congratulated by friendly NPC" style="rounded=1;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;" parent="1" vertex="1">
+                    <mxGeometry x="470" y="815" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="&lt;b&gt;&lt;font style=&quot;font-size: 36px;&quot;&gt;&lt;u&gt;General&amp;nbsp; flowchart&amp;nbsp;&lt;/u&gt;&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="-80" width="350" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" style="edgeStyle=none;html=1;fontSize=12;rounded=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="53" target="55">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="530" y="1120" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="53" value="Travel outside and win the game" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="End" style="ellipse;whiteSpace=wrap;html=1;fontSize=12;rounded=1;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="470" y="1080" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" style="edgeStyle=none;html=1;fontSize=12;entryX=0;entryY=0.5;entryDx=0;entryDy=0;rounded=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="57" target="42">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="-140" y="1000" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-160" y="1000"/>
+                            <mxPoint x="-160" y="845"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="57" value="Hidden room that contains an openable chest" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="970" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="&lt;p style=&quot;line-height: 120%;&quot;&gt;&lt;i&gt;&lt;font style=&quot;font-size: 13px;&quot;&gt;Flowchart is not 100% accurate and representative of the game and is just used to visualise the basic steps of the game&lt;/font&gt;&lt;/i&gt;&lt;/p&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=12;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="10" width="170" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
