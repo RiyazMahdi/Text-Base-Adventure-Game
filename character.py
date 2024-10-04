@@ -81,7 +81,7 @@ class Inventory():
     
 class Friend(Character):
     def __init__(self):
-        super().__init__("Friendly NPC", "A friendly, old owl.")
+        super().__init__("Friendly NPC", "A majestic, wise owl with gleaming amber eyes, perched silently. ")
         self.conversation = "Greetings, traveler! I am here to congratulate on beating this game."
 
     def talk(self):
