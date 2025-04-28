@@ -1,24 +1,45 @@
-room.py - This file contains a Python class named Room. The Room class represents a room in a text-based adventure game. It has several attributes and methods to manage the room's properties and interactions.
+# 🧭 Text-Based Adventure Game
 
-main.py - This file involves navigating through different rooms, interacting with characters, and engaging in battles.(NEW refers to the latest version where classes are used for modularity)
+Welcome to the **Text-Based Adventure Game**!  
+Explore mysterious rooms, meet friends (and foes), find treasures, and make choices that determine your fate. 🗝️⚔️
 
-item.py - This file contains a class named Item. This represents an item which has two attributes: name and description. The class provides methods to get and set the values of these attributes.
+---
 
-character.py - This file contains classes for characters and enemies in a text-based adventure game. The Character class is the base class for all characters, while the Enemy class is a subclass of Character specifically for enemies and Friend class for friendly NPC's.
+## 📂 Project Structure
 
-character_test.py - This file demonstrates the usage of the Enemy class from the character.py file. The script creates an instance of the Enemy class, sets its properties, and calls its methods to describe, talk to, and fight with the enemy character.
+| File | Description |
+|:-----|:------------|
+| `room.py` | Defines the `Room` class to represent different rooms in the game, including their properties and interactions. |
+| `main.py` | The core game loop: navigate rooms, interact with characters, and engage in battles. (Now modular with class-based structure!) |
+| `item.py` | Defines the `Item` class to handle game items with `name` and `description` attributes. |
+| `character.py` | Contains character classes: `Character` (base), `Enemy` (subclass), and `Friend` (friendly NPCs). |
+| `character_test.py` | A test script demonstrating how the `Enemy` class works by creating an enemy and interacting with it. |
+| `flowchart.drawio` | A rough flowchart (⚠️ not fully saved) for visualizing the game's flow and mechanics. |
 
-flowchart.drawio - A flowchart use to get the general gist of the game and a way to visualise the process of the game(has not saved properly)
+---
 
+## ✨ New Features
 
-Added features:
--run away system
--2 new rooms
--friendly npc
--chest and key mechanic
--inventory system
+- 🏃 **Run Away System** — flee from battles if things get too heated!
+- 🗺️ **Two New Rooms** — explore even more areas.
+- 🧑‍🤝‍🧑 **Friendly NPCs** — not everyone you meet is hostile.
+- 🧰 **Chest and Key Mechanic** — find keys to unlock hidden treasures!
+- 🎒 **Inventory System** — collect, store, and use items.
 
+---
 
-Future plans( If I have time):
--Health and damage system
--Map system xD
+## 🚀 Future Plans (If Time Permits)
+
+- ❤️ **Health and Damage System** — add hit points and combat mechanics.
+- 🗺️ **Map System** — visualize explored areas of the game world.
+
+---
+
+## 🛠️ How to Run
+
+1. Clone the repository or download the files.
+2. Make sure you have **Python 3.6+** installed.
+3. Run the game using:
+
+```bash
+python main.py
